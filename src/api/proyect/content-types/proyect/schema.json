@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proyects",
+  "info": {
+    "singularName": "proyect",
+    "pluralName": "proyects",
+    "displayName": "Proyect"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "image_url": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "duration": {
+      "type": "string"
+    },
+    "finished_at": {
+      "type": "date"
+    }
+  }
+}
